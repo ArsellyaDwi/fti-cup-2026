@@ -1,0 +1,6 @@
+{
+  "name": "FTI CUP ITN Malang 2026",
+  "description": "Website resmi kompetisi olahraga dan e-sports FTI CUP ITN Malang 2026, menyajikan informasi kompetisi, jadwal, sistem pertandingan, pusat dokumen, dan pendaftaran.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

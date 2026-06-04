@@ -1,0 +1,73 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model CabangLomba {
+  id             String @id
+  name           String
+  icon           String
+  description    String
+  playersPerTeam String
+  requirements   String // Stored as a JSON string
+  googleFormUrl  String @default("")
+  isActive       Boolean @default(true)
+}
+
+model GameSystem {
+  id       String @id
+  name     String
+  rules    String // Stored as a JSON string
+  format   String @default("Sistem Gugur (Knockout System)")
+  location String @default("Kampus II ITN Malang")
+  tmInfo   String @default("Akan dijelaskan lebih lanjut pada saat Technical Meeting (TM)")
+}
+
+model Document {
+  id          String @id
+  title       String
+  description String
+  filename    String
+  downloadUrl String
+  updatedAt   String
+}
+
+model Jadwal {
+  id          String @id
+  lombaName   String
+  date        String
+  time        String
+  location    String
+  description String @default("")
+}
+
+model Contact {
+  id        String @id
+  name      String
+  role      String
+  whatsapp  String
+  foto      String @default("")
+}
+
+model RegistrationLink {
+  id   String @id
+  name String
+  link String
+}
+
+model Setting {
+  key   String @id
+  value String
+}
+
+model Faq {
+  id       String @id
+  question String
+  answer   String
+  order    Int    @default(0)
+}
+

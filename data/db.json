@@ -1,0 +1,276 @@
+{
+  "cabangLomba": [
+    {
+      "id": "voli",
+      "name": "Voli",
+      "icon": "Volleyball",
+      "description": "Pertandingan voli beregu putra-putri antar program studi di lingkungan FTI ITN Malang. Mengedepankan sportivitas, koordinasi, dan kebersamaan.",
+      "playersPerTeam": "Satu tim perwakilan prodi",
+      "requirements": []
+    },
+    {
+      "id": "basket",
+      "name": "Basket",
+      "icon": "Basketball",
+      "description": "Kompetisi basket putra-putri berskala FTI ITN Malang demi membangun jiwa persaudaraan, sinergi taktis, dan kelincahan atletis.",
+      "playersPerTeam": "Satu tim perwakilan prodi",
+      "requirements": []
+    },
+    {
+      "id": "minisoccer",
+      "name": "Mini Soccer",
+      "icon": "Footprints",
+      "description": "Kompetisi sepak bola mini di lapangan luar Kampus 2 ITN Malang. Wadah penyalur bakat bola dan penjalin silaturahmi yang seru.",
+      "playersPerTeam": "Satu tim perwakilan prodi",
+      "requirements": []
+    },
+    {
+      "id": "bulutangkis",
+      "name": "Bulutangkis",
+      "icon": "Activity",
+      "description": "Pertandingan bulutangkis kategori tunggal putra/putri dan ganda campur. Wadah mengasah ketangkasan dalam suasana kekeluargaan.",
+      "playersPerTeam": "Satu delegasi per nomor tanding",
+      "requirements": []
+    },
+    {
+      "id": "tariktambang",
+      "name": "Tarik Tambang",
+      "icon": "Cable",
+      "description": "Lomba adu kekompakan fisik yang seru dan legendaris. Mempererat solidaritas antarseluruh unsur mahasiswa dan dosen FTI.",
+      "playersPerTeam": "Satu tim perwakilan prodi",
+      "requirements": []
+    },
+    {
+      "id": "tenismeja",
+      "name": "Tenis Meja",
+      "icon": "Coins",
+      "description": "Kejuaraan tenis meja tunggal/ganda putra-putri. Menampilkan permainan cepat, akurat, penuh taktik, dan ramah tamah.",
+      "playersPerTeam": "Satu delegasi per nomor tanding",
+      "requirements": []
+    },
+    {
+      "id": "esports",
+      "name": "E-Sports",
+      "icon": "Gamepad2",
+      "description": "Ajang uji ketangkasan strategi digital cabang olahraga elektronik. Kompetisi ramah lingkungan kampus yang interaktif.",
+      "playersPerTeam": "Satu tim perwakilan prodi",
+      "requirements": []
+    }
+  ],
+  "gameSystems": [
+    {
+      "id": "voli",
+      "name": "Voli",
+      "format": "Group Stage & Playoff KO",
+      "location": "Lapangan Voli Kampus 2 ITN Malang",
+      "tmInfo": "Harap hadir di Aula Kampus 2 pukul 09:00 WIB sebelum tanding.",
+      "rules": [
+        "Sistem pertandingan akan dijelaskan lebih lanjut saat Technical Meeting (TM) dan menyesuaikan jumlah peserta yang terdaftar."
+      ]
+    },
+    {
+      "id": "basket",
+      "name": "Basket",
+      "format": "Setengah Kompetisi Grup",
+      "location": "Lapangan Basket Kampus 2 ITN Malang",
+      "tmInfo": "Technical Meeting dilaksanakan secara daring/hybrid koordinasi kapten.",
+      "rules": [
+        "Sistem pertandingan akan dijelaskan lebih lanjut saat Technical Meeting (TM) dan menyesuaikan jumlah peserta yang terdaftar."
+      ]
+    },
+    {
+      "id": "minisoccer",
+      "name": "Mini Soccer",
+      "format": "Group Stage & Final Knockout",
+      "location": "Lapangan Utama Kampus 2 ITN Malang",
+      "tmInfo": "Drawing grup diresmikan sewaktu Technical Meeting (TM) di Kampus 2.",
+      "rules": [
+        "Sistem pertandingan akan dijelaskan lebih lanjut saat Technical Meeting (TM) dan menyesuaikan jumlah peserta yang terdaftar."
+      ]
+    },
+    {
+      "id": "bulutangkis",
+      "name": "Bulutangkis",
+      "format": "Sistem Gugur Tunggal & Ganda",
+      "location": "Sport Hall Kampus 2 ITN Malang",
+      "tmInfo": "Penjelasan bagan sistem gugur dipaparkan total saat Technical Meeting.",
+      "rules": [
+        "Sistem pertandingan akan dijelaskan lebih lanjut saat Technical Meeting (TM) dan menyesuaikan jumlah peserta yang terdaftar."
+      ]
+    },
+    {
+      "id": "tariktambang",
+      "name": "Tarik Tambang",
+      "format": "Sistem KO Terbuka",
+      "location": "Halaman Utama Kampus 2 ITN Malang",
+      "tmInfo": "Undian tanding dan aturan safety digelas pada sesi Technical Meeting panitia.",
+      "rules": [
+        "Sistem pertandingan akan dijelaskan lebih lanjut saat Technical Meeting (TM) dan menyesuaikan jumlah peserta yang terdaftar."
+      ]
+    },
+    {
+      "id": "tenismeja",
+      "name": "Tenis Meja",
+      "format": "Sistem Gugur Tunggal/Ganda",
+      "location": "Hala Kampus 2 ITN Malang",
+      "tmInfo": "TM membahas regulasi alat pukul bed, bola standar, dan drawing bagan.",
+      "rules": [
+        "Sistem pertandingan akan dijelaskan lebih lanjut saat Technical Meeting (TM) dan menyesuaikan jumlah peserta yang terdaftar."
+      ]
+    },
+    {
+      "id": "esports",
+      "name": "E-Sports",
+      "format": "Tournament Single Bracket",
+      "location": "Laboratorium Rekayasa Digital Kampus 2",
+      "tmInfo": "Uji jaringan, share room lobby, dan ban list hero pada technical meeting.",
+      "rules": [
+        "Sistem pertandingan akan dijelaskan lebih lanjut saat Technical Meeting (TM) dan menyesuaikan jumlah peserta yang terdaftar."
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_guide",
+      "title": "Guidebook FTI CUP 2026",
+      "description": "Buku petunjuk pelaksanaan kegiatan FTI CUP 2026, tata tertib, jadwal rincian lomba, dan pedoman silaturahmi.",
+      "filename": "Guidebook_FTI_CUP_2026.pdf",
+      "downloadUrl": "https://docs.google.com/document/d/1Xp-mJvsc7Xgq91_vK7VscO_demo_link1/edit?usp=sharing",
+      "updatedAt": "2026-06-04T00:00:00Z"
+    },
+    {
+      "id": "doc_tm",
+      "title": "Materi Technical Meeting",
+      "description": "Slide pemaparan regulasi pertandingan dasar, skema pendaftaran, penentuan regu, dan nomor pertandingan.",
+      "filename": "Technical_Meeting_FTI_CUP.pdf",
+      "downloadUrl": "https://docs.google.com/presentation/d/1Xp-mJvsc7Xgq91_vK7VscO_demo_link2/edit?usp=sharing",
+      "updatedAt": "2026-06-04T00:00:00Z"
+    },
+    {
+      "id": "doc_jadwal",
+      "title": "Jadwal Pertandingan Lengkap",
+      "description": "Lini masa jadwal lengkap jam tanding, urutan tanding, serta lokasi tribun masing-masing prodi.",
+      "filename": "Jadwal_Pertandingan_FTI_CUP.pdf",
+      "downloadUrl": "https://docs.google.com/document/d/1Xp-mJvsc7Xgq91_vK7VscO_demo_link3/edit?usp=sharing",
+      "updatedAt": "2026-06-04T00:00:00Z"
+    },
+    {
+      "id": "doc_undangan",
+      "title": "Surat Undangan Delegasi Prodi",
+      "description": "Surat permohonan delegasi resmi ditujukan kepada Ketua Program Studi di lingkungan Fakultas Teknologi Industri ITN Malang.",
+      "filename": "Surat_Undangan_FTI_CUP_2026.pdf",
+      "downloadUrl": "https://docs.google.com/document/d/1Xp-mJvsc7Xgq91_vK7VscO_demo_link4/edit?usp=sharing",
+      "updatedAt": "2026-06-04T00:00:00Z"
+    },
+    {
+      "id": "doc_poster",
+      "title": "Poster FTI CUP 2026",
+      "description": "Poster promosi resolusi tinggi berisi rincian cabang, contact person, dan peta ajakan pendaftaran bersama.",
+      "filename": "Poster_FTI_CUP_2026.png",
+      "downloadUrl": "https://docs.google.com/document/d/1Xp-mJvsc7Xgq91_vK7VscO_demo_link5/edit?usp=sharing",
+      "updatedAt": "2026-06-04T00:00:00Z"
+    }
+  ],
+  "jadwal": [
+    {
+      "id": "j1",
+      "lombaName": "Opening Ceremony & Cabang Voli",
+      "date": "Rabu, 10 Juni 2026",
+      "time": "08:00 WIB - Selesai",
+      "location": "Lapangan Utama Kampus 2 ITN Malang"
+    },
+    {
+      "id": "j2",
+      "lombaName": "Mini Soccer (Penyisihan Grup)",
+      "date": "Rabu, 10 Juni 2026",
+      "time": "13:00 WIB - 17:00 WIB",
+      "location": "Lapangan Utama Kampus 2 ITN Malang"
+    },
+    {
+      "id": "j3",
+      "lombaName": "Basket & Bulutangkis",
+      "date": "Kamis, 11 Juni 2026",
+      "time": "08:00 WIB - Selesai",
+      "location": "Sport Hall Kampus 2 ITN Malang"
+    },
+    {
+      "id": "j4",
+      "lombaName": "Tarik Tambang & Tenis Meja",
+      "date": "Jumat, 12 Juni 2026",
+      "time": "13:30 WIB (Ba'da Jumat)",
+      "location": "Halaman Utama Kampus 2 ITN Malang"
+    },
+    {
+      "id": "j5",
+      "lombaName": "E-Sports MLBB & Valorant",
+      "date": "Sabtu, 13 Juni 2026",
+      "time": "09:00 WIB - Selesai",
+      "location": "Laboratorium Rekayasa Digital Kampus 2"
+    },
+    {
+      "id": "j6",
+      "lombaName": "Final All Cabang & Closing",
+      "date": "Sabtu, 13 Juni 2026",
+      "time": "14:00 WIB - Selesai",
+      "location": "Aula Utama Kampus 2 ITN Malang"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "c1",
+      "name": "Bagas Dwi Handoko",
+      "role": "Ketua Pelaksana FTI CUP 2026",
+      "whatsapp": "6281234567890"
+    },
+    {
+      "id": "c2",
+      "name": "Anggita Rahma",
+      "role": "Hubungan Masyarakat (Humas)",
+      "whatsapp": "6282233445566"
+    },
+    {
+      "id": "c3",
+      "name": "Ahmad Syarif",
+      "role": "Divisi Registrasi Peserta",
+      "whatsapp": "6289988776655"
+    }
+  ],
+  "registrationLinks": [
+    {
+      "id": "voli",
+      "name": "Daftar Voli",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSciK8ZgVo9Gv9x1O3_voli_demo/viewform"
+    },
+    {
+      "id": "basket",
+      "name": "Daftar Basket",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSciK8ZgVo9Gv9x1O3_basket_demo/viewform"
+    },
+    {
+      "id": "minisoccer",
+      "name": "Daftar Mini Soccer",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSciK8ZgVo9Gv9x1O3_soccer_demo/viewform"
+    },
+    {
+      "id": "bulutangkis",
+      "name": "Daftar Bulutangkis",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSciK8ZgVo9Gv9x1O3_badminton_demo/viewform"
+    },
+    {
+      "id": "tariktambang",
+      "name": "Daftar Tarik Tambang",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSciK8ZgVo9Gv9x1O3_tugofwar_demo/viewform"
+    },
+    {
+      "id": "tenismeja",
+      "name": "Daftar Tenis Meja",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSciK8ZgVo9Gv9x1O3_pingpong_demo/viewform"
+    },
+    {
+      "id": "esports",
+      "name": "Daftar E-Sports",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSciK8ZgVo9Gv9x1O3_esports_demo/viewform"
+    }
+  ],
+  "countdownDate": "2026-06-10T08:00:00"
+}
