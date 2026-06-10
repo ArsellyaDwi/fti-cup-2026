@@ -133,7 +133,7 @@ export default function Hero({ countdownTarget }: HeroProps) {
               </div>
               <div className="space-y-0.5">
                 <span className="text-[10px] font-bold text-[#64748B] dark:text-[#CBD5E1] uppercase tracking-wider block">Pelaksanaan</span>
-                <p className="text-sm font-semibold text-[#0F172A] dark:text-[#F8FAFC]">10 – 13 Juni 2026</p>
+                <p className="text-sm font-semibold text-[#0F172A] dark:text-[#F8FAFC]">12, 13, 15, dan 20 Juni 2026</p>
               </div>
             </div>
 
