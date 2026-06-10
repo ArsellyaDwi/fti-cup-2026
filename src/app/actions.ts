@@ -140,7 +140,7 @@ async function ensureDbSeeded() {
       {
         id: "faq-10",
         question: "Kapan pelaksanaan FTI CUP 2026?",
-        answer: "FTI CUP 2026 akan dilaksanakan pada:\n10 Juni 2026 – 13 Juni 2026\n\nLokasi:\nKampus 2 Institut Teknologi Nasional Malang.",
+        answer: "FTI CUP 2026 akan dilaksanakan pada:\n12, 13, 15, dan 20 Juni 2026\n\nLokasi:\nKampus 2 Institut Teknologi Nasional Malang.",
         order: 10
       },
       {
