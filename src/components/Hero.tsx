@@ -159,7 +159,7 @@ export default function Hero({ countdownTarget }: HeroProps) {
 
               <div className="text-center mt-3 mb-5">
                 <p className="text-[10px] sm:text-xs text-[#64748B] dark:text-[#CBD5E1] font-semibold uppercase tracking-wider">Event Dimulai Dalam</p>
-                <p className="text-[11px] text-[#003B7A] dark:text-[#60A5FA] font-bold mt-1">Rabu, 10 Juni 2026</p>
+                <p className="text-[11px] text-[#003B7A] dark:text-[#60A5FA] font-bold mt-1">Jumat, 12 Juni 2026</p>
               </div>
 
               {/* Grid of countdown dials */}
